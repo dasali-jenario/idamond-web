@@ -922,6 +922,13 @@ ul { list-style: none; }
   border: 1px solid rgba(34,211,160,0.25);
 }
 
+.ip__status--granted {
+  background: rgba(5,150,105,0.12);
+  color: #047857;
+  border: 1px solid rgba(5,150,105,0.35);
+  font-size: 0.75rem;
+}
+
 .ip__card-header h3 {
   font-family: var(--font-display);
   font-size: 1.3rem;
