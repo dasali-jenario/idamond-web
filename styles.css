@@ -1243,6 +1243,26 @@ ul { list-style: none; }
   margin-bottom: 28px;
 }
 
+.contact__nda {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem !important;
+  color: var(--color-text-3) !important;
+  margin-bottom: 4px !important;
+  font-style: italic;
+}
+
+.contact__nda::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-text-3);
+  flex-shrink: 0;
+}
+
 .contact__points {
   display: flex;
   flex-direction: column;
