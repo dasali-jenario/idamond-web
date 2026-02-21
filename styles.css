@@ -757,12 +757,13 @@ ul { list-style: none; }
   box-shadow: var(--shadow-card);
   background: #000;
   line-height: 0;
+  aspect-ratio: 16 / 9;
 }
 
 .tech__demo-video {
   width: 100%;
+  height: 100%;
   display: block;
-  max-height: 540px;
   object-fit: contain;
 }
 
